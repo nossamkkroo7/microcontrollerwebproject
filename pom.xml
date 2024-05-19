@@ -64,4 +64,18 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <snapshotrepository>
+        <id>nexus</id>
+        <name>devops</name>
+        <url>http://localhost:8081/repository/today/</url>
+    </snapshotrepository> 
+    <repository>
+        <id>nexus</id>
+        <name>devops</name>
+        <layout>default</layout>
+        <url>http://localhost:8081/repository/today/</url>
+    </repository>
+  </distributionManagement>
+  
 </project>
